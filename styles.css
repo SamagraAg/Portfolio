@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color:yellow;
+}
+
+.top-container {
+  /* background-color: #e0ebe8; */
+  background-color: #16213E;
+  position: relative;
+  padding: 100px;
+  padding-bottom: 0;
+  height: 625px;
+}
+.mountain{
+  padding-top: 30px;    
+  height: 60%;
+  position: absolute;
+  bottom:0px;
+  left: 35%;
+}
+.middle-container {
+  background-color: #16213E;
+  color: white;
+}
+
+.bottom-container {
+  background-color: #16213E;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 900px;
+  top: 180px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 50px;
+}
+
+.cursive {
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: #4FA095;
+}
+
+.green {
+  color: #4FA095;
+  font-size: 25px;
+}
+
+.skillImg {
+  width: 150px;
+  height: 150px;
+}
+
+.btn{
+  color:yellow;
+}

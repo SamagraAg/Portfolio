@@ -1,0 +1,53 @@
+we can change the position of any html element using CSS property "POSITION"
+there are four ways in which potion property can be changed
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+1.STATIC --> position of HTML elements remain default and cannot be changed
+It is same as when our code is without CSS (just according to default HTML rules)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+2.RELATIVE ---> Changes the position of HTML element "relative" to its default position
+(This can be achieved by altering four parameters-> top, bottom, right, left)
+
+Also note that changing relative position of any element doesn't affect the position of other elements
+like in our example below if we move the blue box to more right it will overlap the red
+this happens because the position of blue is changing but the position of red is not changing
+
+
+EG: if we do top: 20px; it will shift the top of html element 20px apart from its original position
+so our concerned html element goes 20px down
+//code link: https://codepen.io/saga26/pen/KKedqyY
+//code link: https://codepen.io/saga26/pen/KKedqyY
+//code link: https://codepen.io/saga26/pen/KKedqyY
+
+-------------------------------------------------------------------------------------------------------------------------
+
+3.Absolute ---> Changes the position according to the position of " Nearest Positioned Parent"
+if there is no positioned parent it changes it position according to the window
+
+
+NOTES:
+
+I. It also affects the other elements of the screen --> eg: https://codepen.io/saga26/pen/eYKperm?editors=1100
+
+II. if there is no positioned parent then the position of tag is changes w.r.t to window --> https://codepen.io/saga26/pen/poKjdyG
+Like in this example every div has no parent so they move wrt to window on setting absolute position
+
+III. if there is a positioned parent then the position of tag is changes w.r.t to that Parent
+eg: --> https://codepen.io/saga26/pen/GRGpMQj
+like in this example the top-div has a parent so it moves wrt to it
+but the middle and bottom div having no parent moves wrt to window
+
+-------------------------------------------------------------------------------------------------------------------------
+
+4. fixed--> its position doesn't changes on scrolling  eg: below
+
+-------------------------------------------------------------------------------------------------------------------------
+
+4. sticky-->Combination of fixed and relative. Initially same as relative abut but on scrolling behave like fixed  eg: below
+
+
+https://codepen.io/saga26/pen/XWYmzwj?editors=1100   //example of both fixed and sticky
