@@ -1,6 +1,0 @@
-this css property is used to align the text
-usually used inside parennt elements
-aligns the text for all child elements and itself if their width is not defined
-even if there width is defined then they can be centerized bya djusting margins to auto
-
-https://codepen.io/saga26/pen/KKedZpw?editors=1100
