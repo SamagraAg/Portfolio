@@ -9,7 +9,7 @@ body {
   text-align: center;
   margin: 0;
   font-family: 'Yeon Sung', cursive;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 h1 {
@@ -32,15 +32,15 @@ h3 {
   /* background-color: #e0ebe8; */
   background-color: #16213E;
   position: relative;
-  padding: 100px;
+  padding: 6.25rem;
   padding-bottom: 0;
-  height: 625px;
+  height: 39.0625rem;
 }
 .mountain{
-  padding-top: 30px;    
+  padding-top: 1.875rem;
   height: 60%;
   position: absolute;
-  bottom:0px;
+  bottom:0;
   left: 35%;
 }
 .middle-container {
@@ -57,30 +57,30 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
-  right: 900px;
-  top: 180px;
+  right: 56.25rem;
+  top: 11.25rem;
 }
 
 .top-cloud {
   position: absolute;
-  right: 450px;
-  top: 50px;
+  right: 28.125rem;
+  top: 3.125rem;
 }
 
 .cursive {
   font-family: 'Sacramento', cursive;
-  font-size: 70px;
+  font-size: 4.375rem;
   color: #4FA095;
 }
 
 .green {
   color: #4FA095;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .skillImg {
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
 }
 
 .btn{
