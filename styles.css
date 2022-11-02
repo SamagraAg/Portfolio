@@ -10,16 +10,20 @@ body {
   margin: 0;
   font-family: 'Yeon Sung', cursive;
   font-size: 1.25rem;
+
 }
 
 h1 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+
 }
 
 h2 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 h3 {
@@ -44,12 +48,12 @@ h3 {
   left: 35%;
 }
 .middle-container {
-  background-color: #16213E;
+  background-color: #041C32;
   color: white;
 }
 
 .bottom-container {
-  background-color: #16213E;
+  background-color: #041C32;
   color: white;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -75,14 +79,46 @@ h3 {
 
 .green {
   color: #4FA095;
-  font-size: 1.5625rem;
+  /* font-size: 1.5625rem; */
 }
 
 .skillImg {
   width: 9.375rem;
   height: 9.375rem;
+  padding-top: 15px;
+  padding-bottom: : 15px;
 }
 
 .btn{
   color:yellow;
+}
+
+.skill-row{
+  line-height: 2;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.socials{
+  width:3em;
+  height:3em;
+}
+
+hr{
+  color: #B2B2B2;
+  border-style: none;
+  border-top: solid;
+}
+
+#css{
+  float: left;
+}
+#c{
+  float: left;
+}
+#html{
+  float: right;
 }
